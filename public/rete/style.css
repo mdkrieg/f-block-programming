@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#rete.connected{
+  background:red;
+}
+
+.node .control input, .node .input-control input {
+  width: 100%;
+}
+
+.node .title{
+  font-size:1.5em !important;
+  font-weight:bold;
+  background:#333;
+  border-radius:8px;
+  margin: -1px;
+}
+
+.node{
+  background:#667 !important;
+  border-color: #333 !important;
+  min-width: 140px !important;
+  width: 140px !important;
+}
+/*.node.selected{
+  background:#336 !important;
+}*/
+.node.input{
+  width: 200px !important;
+}
+.control{
+  min-height:2px;
+}
+.control label{
+  color:white;
+  width:40px !important;
+  float:left;
+}
+.scanID{
+  width:40px !important;
+  /*position:relative;
+  top:-20px;
+  left: 5px;*/
+  float:right;
+  font-size:0.8em;
+  background-color: #333;
+  color:#DDF;
+}
+#workspace:not(.connected) input.livetype{
+  background-color:#AAA;
+}
+input.boolean.false{
+  background:#FAA;
+  color:#A00;
+}
+input.boolean.true{
+  background:#AFA;
+  color:#050;
+}
+
+.socket{
+  background:#FF9!important;
+  border-color:#333!important;
+}
+
+select, input {
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+  padding: 2px 6px;
+  border: 1px solid #999;
+  font-size: 110%;
+  width: 170px;
+}
